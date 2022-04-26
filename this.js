@@ -35,6 +35,10 @@ console.log(printFullName());
 
  console.log(printFullName.apply(student2,[34]))
 
+//bind
+const printName=printFullName.bind(student2);
+  console.log(printName(45));
+
 
 
 
